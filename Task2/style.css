@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: white;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 35pc rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+  position: relative;
+  background-color: #0771a2;
+  padding: 40px;
+}
+
+.profile_txt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile_txt .imgBx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_txt .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile_txt h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profile_txt h2 span {
+  font-size: 0.8 em;
+  font-weight: 300;
+}
+
+.contact_info {
+  padding-top: 40px;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contact_info ul {
+  position: relative;
+}
+
+.contact_info ul li {
+  position: relative;
+  list-style-type: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contact_info ul li .icon {
+  /* display: inline-block; */
+  width: 30px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.contact_info ul li span {
+  color: #fff;
+  font-weight: 300;
+}
+
+.education li {
+  margin-bottom: 15px;
+}
+
+.education ul li h5 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.education ul li h4 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.education ul li h4:nth-child(2) {
+  color: #fff;
+  font-weight: 300;
+}
+
+.percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: rgb(114, 181, 181);
+  display: block;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 5px;
+  background: rgb(6, 78, 193);
+}
+
+.container .right_side {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.about {
+  margin-bottom: 40px;
+}
+
+.about:last-child {
+  margin-bottom: 0px;
+}
+
+.title2 {
+  color: #0771a2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #333;
+}
+
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.about .box .year {
+  min-width: 150px;
+}
+
+.about .box .year h5 {
+  text-transform: uppercase;
+  color: rgb(56, 57, 103);
+}
+
+.about .box .text h5 {
+  text-transform: uppercase;
+  color: rgb(8, 89, 155);
+}
+
+.about .box .text p {
+  font-size: 0.8rem;
+}
+
+.skills .box {
+  flex-direction: column;
+}
+
+.box h4 {
+  font-weight: 500;
+}
+
+.box .percent {
+  margin-bottom: 10px;
+}
